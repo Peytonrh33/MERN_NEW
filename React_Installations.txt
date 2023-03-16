@@ -1,0 +1,61 @@
+(Install/create react app)
+npx create-react-app client
+
+npm install axios
+
+npm install react-router-dom
+
+
+(Express installment)
+make a server folder 
+npm init -y
+npm install express
+
+node server.js starts the sever
+when server is running nodemon server.js to retsart the server to see your changes
+
+
+
+(After installing that put this in index.js)
+	index.js
+	import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <React.StrictMode>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </React.StrictMode>
+);
+
+
+(Imports for components)
+
+Make sure to import axios from 'axios';
+
+Make sure import React, { useState, useEffect } from 'react';
+
+Make sure import {useParams} from "react-router-dom";
+
+Make sure import {useNavigate} from 'react-router-dom';
+
+
+
+(Routes Example)
+
+      <Form />
+      <Routes>
+        <Route path='/people/:id' element={<People />} />
+        <Route path='/planets/:id' element={<Planets />} />
+      </Routes>
+
+
+
+
+
+
