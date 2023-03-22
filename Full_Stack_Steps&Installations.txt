@@ -1,0 +1,35 @@
+THIS IS ALL WITHIN THE MAIN FOLDER WE CREATED Sample: Product_Manager
+
+npm init -y
+
+npm install express mongoose
+
+npx create-react-app client
+
+npm install cors
+
+npm dotenv
+
+create server.js file
+
+
+THIS IS THE CLIENT FOLDER INSTALLATIONS
+
+npm install axios
+
+npm install react-router-dom
+
+
+THIS IS SERVER FOLDER
+
+create server folder however you want this will be the structure in notepad form
+
+server
+	config
+	controllers
+	models
+	routes
+
+
+
+
