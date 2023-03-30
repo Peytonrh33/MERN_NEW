@@ -24,7 +24,7 @@ const UpdatePage = ()=>{
     const updateAuthor = (authorToUpdate) =>{
 
         axios.put(`http://localhost:8000/api/authors/${id}`, authorToUpdate)
-        .then((result) =>{
+        .then(() =>{
             nav(`/authors`);
         })
         .catch((err) =>{

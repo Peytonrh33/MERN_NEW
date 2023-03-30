@@ -5,9 +5,9 @@ import axios from 'axios';
 const DeleteButton = (props) =>{
     const {authorId, successCallback} = props
 
-    const deleteAuthor = (authorToDelete) =>{
+    const deleteAuthor = () =>{
         axios.delete(`http://localhost:8000/api/authors/${authorId}`)
-        .then(res=>{
+        .then(()=>{
             successCallback();
             // setAuthors(authors.filter((author)=>author._id !== authorToDelete._id))
         })

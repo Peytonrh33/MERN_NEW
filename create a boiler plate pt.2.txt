@@ -1,0 +1,26 @@
+create a boiler plate
+have installations already done such as axios react router dom and shit like that
+
+
+have project folder setup at the very minimum
+
+
+go ahead and basically build back end
+controller
+routes
+config
+
+mdoel
+you can go ahead and make the basics in this folder
+
+it is mostly the same just some small changes
+
+highlight word and ctrl + 4 or F4
+
+
+image type string
+required: [true, 'Image URL Required']
+
+
+
+you may or may not get a update page but be ready when you do so just use your authors if you made a update and view one page

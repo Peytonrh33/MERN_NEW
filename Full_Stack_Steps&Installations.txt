@@ -4,11 +4,11 @@ npm init -y
 
 npm install express mongoose
 
-npx create-react-app client
-
 npm install cors
 
 npm dotenv
+
+npx create-react-app client
 
 create server.js file
 
